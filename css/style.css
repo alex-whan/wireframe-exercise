@@ -1,1 +1,68 @@
+body {
+  background-color: salmon;
+  min-width: 960px;
+  text-align: center;
+  
+}
+header {
+  background-color: darkgrey;
+  border: solid black 3px;
+  height: 100px;
+  margin-bottom: 15px;
+  text-align: center;
+  vertical-align: center;
+  width: 100%;
+ 
+}
 
+nav {
+  display: inline-block;
+  margin: auto;
+  vertical-align: center;
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: center;
+}
+
+img:not(#logo) {
+  display: inline-block;
+  margin: 15px;
+
+}
+
+h2 {
+  display: inline-block;
+}
+
+p {
+  display: block;
+  max-width: 350px;
+}
+
+button {
+  display: inline-block;
+}
+
+button:hover {
+  background-color: green;
+  transition: 350ms;
+}
+
+footer {
+  background-color: darkgrey;
+  border: solid black 3px;
+  height: 100px;
+  width: 100%;
+}
+
+.featured {
+  display: inline-block;
+  width: 960px;
+}
+
+section {
+  border: solid black 3px;
+  min-width: 960px;
+}
